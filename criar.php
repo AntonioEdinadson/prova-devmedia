@@ -1,13 +1,12 @@
 <?php
 include __DIR__ . "/includes/header.php";
-require __DIR__ . "/config.php";
+require __DIR__ . "/functions.php";
 
 if(isset($_POST['btn'])) {
     if(!empty($_POST['titulo']) && !empty($_POST['desc'])) {
         $titulo = filter_var($_POST['titulo'], FILTER_SANITIZE_STRIPPED);
         $desc = filter_var($_POST['desc'], FILTER_SANITIZE_STRIPPED);
-
-        var_dump($_POST);
+        $post = inserirPost($titulo, $desc);
     }
 }
 
