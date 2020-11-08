@@ -62,7 +62,7 @@
     }
 
     .post-item  {
-        width: 100%;
+        width: 99%;
         display: grid;
         justify-items: center;
         gap: 15px;
