@@ -40,6 +40,45 @@ body {
     width: 65%;
 }
 
+.menu-desktop {
+    display: flex;
+}
+
+.menu-mobile {
+    position: relative;
+    display: none;
+}
+
+.icon-menu {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.icon-menu img {
+    width: 100%;
+}
+
+
+.menu-mo {
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    top: 70px;
+    right: 0px;
+    border-radius: 3px;
+    background-color: rgb(61, 61, 61);
+}
+
+.menu-mo a {
+    color: #fff;
+}
+
+.menu-mo li {
+    color: #fff;
+    margin: 10px 0;
+}
+
 .menu-item {
     width: 100%;
     display: flex;
