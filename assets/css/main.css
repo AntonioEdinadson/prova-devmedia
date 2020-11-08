@@ -38,7 +38,6 @@ body {
 
 .menu {
     width: 65%;
-    /* background-color: rgb(193, 196, 41); */
 }
 
 .menu-item {
@@ -191,18 +190,6 @@ body {
     padding: 25px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .copy {
     position: fixed; 
     bottom: 0px; 
@@ -225,3 +212,4 @@ body {
     font-weight: 600;
     font-size: 14px;
 }
+
